@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="esas">
+
+        <h1>Resrvation Request</h1>
+
+            <form>
+                <fieldset>
+                    <legend>General Information</legend>
+                    
+                    <div class="element">
+                    <label for="ldu1">Arrival date:</label>
+                    <input type="date" id="ldu1">
+                    <span>Arrival date is invalid</span>
+                    </div>
+                       
+                    <div class="element">
+                    <label for="ldu2">Nights:</label>
+                    <input type="number" id="ldu2" placeholder="three">
+                    <span>Nights must be a number</span>
+                    </div>
+
+
+                    <div class="element">
+                    <label for="ldu3">Adults:</label>
+                    <select id="ldu3">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                    </div>
+                    
+                    <div class="element">
+                    <label for="ldu4">Children:</label>
+                    <select id="ldu4">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                    </select>
+                    </div>
+                </fieldset>
+            
+
+        
+            
+                <fieldset>
+                    <legend>Preferences</legend>
+                     
+                     <div class="element1">
+                    <label>Room type:</label>
+                    <input type="radio" name="radio" checked>Standard
+                    <input type="radio" name="radio">Business
+                    <input type="radio" name="radio">Suite
+                    </div>
+                     
+                     
+                    <div class="element1">
+                    <label>Bed type</label>
+                    <input type="radio" name="radio1" checked>King
+                    <input type="radio" name="radio1">Double Double
+                    </div>
+
+                    <input type="checkbox"> Smoking
+                </fieldset>
+            
+        
+
+        
+            
+                <fieldset>
+                    <legend>Contact Information</legend>
+
+                     <div class="element">
+                    <label for="ldu5">Name:</label>
+                    <input type="text" id="ldu5">
+                    <span>Name is required</span>
+                    </div>
+
+
+                    <div class="element">
+                    <label for="ldu6">Email:</label>
+                    <input type="email" id="ldu6" placeholder="graceyahoo.com">
+                    <span>Email address is invalid</span>
+                    </div>
+
+
+                     <div class="element">
+                    <label for="ldu7">Phone:</label>
+                    <input type="tel" id="ldu7" placeholder="+994-50-500-00-00">
+                    <span>Phone number is invalid</span>
+                     </div>
+                </fieldset>
+            
+
+                <input type="submit" value="Submit Resrvation" class="submit">
+                <input type="reset" value="Clear" class="clear">
+            </form>
+    </div>
+</body>
+</html>

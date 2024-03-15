@@ -1,0 +1,42 @@
+.esas{
+    width: max-content;
+    border: 2px solid blue;
+    margin: 5px;
+    padding: 10px;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+fieldset{
+    margin: 8px 0;
+}
+legend{
+    color: blue;
+}
+span{
+    color: red;
+    margin-left: 10px;
+}
+.element{
+    margin: 8px;
+}
+.element1{
+    margin: 8px 0;
+}
+.element input{
+    width: 30%;
+}
+.submit{
+    width: 50%;
+    margin-right: 5%;
+    font-weight: bolder;
+}
+.clear{
+    width: 40%;
+    font-weight: bolder;
+}
+label{
+    width: 100px;
+    margin-right: 5px;
+    display: inline-block;
+}
