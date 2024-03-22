@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <Style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: content-box;
+        }
+        .basliq{
+            width: 20%;
+            margin: 0 auto;
+            padding: 3% 5%;
+            background-color: black;
+            padding-left: 60px;
+        }
+        .yazi{
+            width: 110%;
+            color: white;
+            text-align: center;
+
+        }
+        .yazi p{
+             color: rgb(121, 116, 116);
+             margin: 20px 0px;
+        }
+        .form{
+            padding-left: 40px;
+            width: 150%;
+        }
+        input{
+            display: block;
+            margin: 10px 0px;
+            padding: 8px;
+            width: 50%;
+            border-radius: 3px;
+            border: 0;
+            
+        }
+        textarea{
+            display: block;
+            padding: 8px;
+            width: 50%;
+            height: 80px;
+            border-radius: 3px;
+        }
+        input::placeholder, textarea::placeholder{
+            font-style: italic;
+        }
+        .send{
+            margin: 10px 0px;
+            width: 50%;
+            font-weight: bold;
+            color: white;
+            background-color: red;
+            border: 0;
+            padding: 10px;
+            border-radius: 3px;
+        }
+    </Style>
+</head>
+<body>
+    <div class="basliq">
+        <div class="yazi">
+            <h1>İpsum sapien elementum portitor?</h1>
+         <p>Sed turpis tortor, tincidunt sed ornare in metus porttitor molis nunc in aliquet. Nam pharetra laoreet imperdient valutpat etiam feugiat</p>
+        </div>
+         
+        <div class="form">
+         <form>
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email">
+            <textarea placeholder="Message" ></textarea>
+         </form>
+         <button class="send">SEND</button>
+         </div>
+    </div>
+</body>
+</html>
