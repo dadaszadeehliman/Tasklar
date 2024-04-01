@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(37, 36, 36);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar__title > h1 > img{
+    margin-right: 5px;
+    width: 30px;
+    height: 27px;
+    position: absolute;
+    top: 0px;
+    left: -35px;
+}
+.navbar__title{
+    width: 200px;
+    height: 35px;
+    position: relative;
+  
+}
+.navbar__lists{
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+}
+.navbar__lists > li > i{
+    margin-right: 3px;
+}
+
+
+.full{
+    width: 100%;
+    height: 450px; 
+    background-image: url(./ay.jpg);
+    background-position: 50px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+.full__1{
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.full__1 > img{
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 0 auto;
+    color: white;
+}
+.full__yazi{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.background{
+    width: 100%;
+    height: 400px;
+    background: rgb(51,22,208);
+    background: linear-gradient(90deg, rgba(51,22,208,1) 2%, rgba(3,3,60,1) 29%, rgba(0,0,0,1) 100%);
+
+}
+.background__1{
+    width: 50%;
+    color: white;
+    margin: 0 auto;
+    padding: 50px;
+}
+.background__1 > h1{
+    margin: 15px 0px;
+}
+
+.backgroundimage{
+    width: 100%;
+    height: 250px;
+    background-image: url(./deniz.jpg);
+}
+
+.engaging{
+    width: 100%;
+    height: 250px;
+    background: rgb(222,165,20);
+    background: linear-gradient(94deg, rgba(222,165,20,1) 15%, rgba(48,204,8,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.engaging__1{
+    width: 30%;
+    color: white;
+}
+.engaging__1 > h2{
+    margin: 10px 0px;
+}
+
+.son{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+body{
+    .yarndings-12 charted-regular {
+        font-family: "Yarndings 12 Charted", system-ui;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+}
