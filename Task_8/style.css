@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.rezervation{
+    width: 100%;
+    min-height: 600px;
+}
+.continer{
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    display: flex;
+}
+.kenar_hisse{
+    width:100px;
+    min-height:650px ;
+    background-color: aquamarine;
+}
+.rezervation__esas{
+    width: 1200px;
+    height: 600px;
+    /* background-color: brown; */
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.rezervation__esas_1{
+    width: 50%;
+    height:500px ;
+}
+.img{
+    background-color: chartreuse;
+    object-fit: cover;
+    position: relative;
+    z-index: 1;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    z-index: 1;
+}
+.icon{
+    background-color: orange;
+    border-radius: 50%;
+    font-size: 85px;
+    margin: 50%;
+    background-size:cover;
+    position: absolute;
+    z-index: 3;
+    left: -40px;
+    top: -80px;
+    box-shadow: 1px 1px 50px 10px orange;
+
+}
+
+.form{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 15px 15px;
+    flex-wrap: wrap;
+}
+.form > textarea{
+    grid-column: 1/3;
+    grid-row: 3/4;
+}
+.form > button{
+    grid-column: 1/3;
+    grid-row: 4/5;
+}
+.continer_1{
+    margin: 30px;
+}
+.form >input,select,textarea,button{
+    padding: 10px;
+}
+.continer_1 > h3{
+    margin: 15px 0px;
+    color: rgb(255, 174, 0);
+    position: relative;
+}
+.xett{
+    border: 0;
+    width: 50px;
+    height: 3px;
+    background-color: rgb(255, 174, 0);
+    display: inline-block;
+    position: absolute;
+    top: 8px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+.continer_1 > h1{
+    margin: 15px 0px;
+    color: white;
+
+}
+.form > button{
+    background-color: rgb(255, 174, 0);
+    color: white;
+    border: 0;
+    font-size: 16px;
+    font-weight: bolder;
+}
+.rezer{
+    background-color: rgb(3, 3, 48);
+}
