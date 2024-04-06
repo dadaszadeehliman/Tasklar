@@ -12,10 +12,11 @@
     margin: 0 auto;
     padding: 0;
     width: 100%;
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
 }
 .kenar_hisse{
-    width:100px;
+    width:79px;
     min-height:650px ;
     background-color: aquamarine;
 }
@@ -42,21 +43,24 @@ img{
     height: 100%;
     object-fit: cover;
     position: relative;
-    z-index: 1;
+    z-index: 1;;
 }
 .icon{
+    width: 80px;
+    height: 80px;
     background-color: orange;
     border-radius: 50%;
-    font-size: 85px;
-    margin: 50%;
-    background-size:cover;
+    font-size: 60px;
     position: absolute;
     z-index: 3;
-    left: -40px;
-    top: -80px;
-    box-shadow: 1px 1px 50px 10px orange;
-
+    position: absolute;
+    top: 220px;
+    left: 240px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
 }
+
 
 .form{
     display: grid;
@@ -83,16 +87,13 @@ img{
     color: rgb(255, 174, 0);
     position: relative;
 }
-.xett{
-    border: 0;
-    width: 50px;
-    height: 3px;
-    background-color: rgb(255, 174, 0);
-    display: inline-block;
+.xett::after{
+    content: '';
     position: absolute;
     top: 8px;
-    margin-left: 10px;
-    border-radius: 5px;
+    left: 105px;
+    width: 50px;
+    border: 1px solid;
 }
 .continer_1 > h1{
     margin: 15px 0px;
